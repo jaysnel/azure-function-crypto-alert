@@ -1,0 +1,17 @@
+{
+  "name": "MyCryptoNotification",
+  "version": "",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "Jaylan Snelson",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "twilio": "^3.46.0"
+  }
+}

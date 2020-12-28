@@ -38,7 +38,12 @@ function sendTextMessage() {
             from: twilioNumber,
             to: phoneNumber
         })
-        .then(message => {return message});
+        .then(message => {
+        //resetting these arrays. Azure somehow keeping track > doubling up on messages
+        coinsToSend = [];
+        msg = [];
+        
+        return message});
 }
 
 //////////////////////////////////////

@@ -73,6 +73,5 @@ axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
 .catch((err) => {
     console.log(err);
 });
-
     return responseMessage;
 }

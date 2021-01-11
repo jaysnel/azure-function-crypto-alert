@@ -11,7 +11,7 @@ const phoneNumber = process.env.PHONENUMBER;
 const accountSid = process.env.ACCOUNTSID;
 const authToken = process.env.AUTHTOKEN;
 const client = require('twilio')(accountSid, authToken);
-const myOwnedCoins = ['xrp','btc','eth', 'ada']; //add coins by their symbol that you want to see in your alert
+const myOwnedCoins = ['xrp','btc','eth']; //add coins by their symbol that you want to see in your alert
 let coinsToSend = [];
 let todaysdate = new Date();
 let dd = String(todaysdate.getDate()).padStart(2, '0');
@@ -24,7 +24,7 @@ module.exports = async function (context, myTimer) {
 const responseMessage = "Notification Sent.";
 
 //////////////////////////////////////
-//      Twilio Send Text Message
+//      Twilio Send Text Messageasdfasdfsadfasdfsfd
 //////////////////////////////////////
 function sendTextMessage() {
     let msg = [];
